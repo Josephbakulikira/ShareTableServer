@@ -195,7 +195,7 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar, handleColl
           }}
         >
           <a
-            href="https://twitter.com/Mapendochris"
+            href="https://twitter.com/JosephBakl"
             target="_blank"
             className="sidebar-btn"
             rel="noopener noreferrer"
