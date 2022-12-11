@@ -1,0 +1,12 @@
+.confirmbutton{
+    transition: all 1.2s !important;
+}
+.confirmbutton:hover{
+    background-color: crimson !important;
+}
+.ficheForm{
+    border: 1px solid black;
+}
+label{
+    font-weight: 700;
+}

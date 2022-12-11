@@ -1,0 +1,69 @@
+.cardproject{
+    width: 200px !important;
+    height: 200px !important;
+    margin: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    /* border: dashed cadetblue; */
+    /* background-color: red; */
+    transition: all 1s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.cardproject:hover{
+    transform: scale(1.05);
+}
+
+.cardproject2{
+    width: 200px !important;
+    height: 200px !important;
+    margin: 20px;
+    border: none;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
+    /* border: dashed cadetblue; */
+    /* background-color: red; */
+    transition: all 1s ease-in-out;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    border-radius: 12px;
+    box-shadow: rgba(236, 236, 255, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    text-align: center !important;
+    text-transform: capitalize;
+    
+    
+}
+.cardproject2 h1{
+    font-size: 30px!important;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.cardproject2:hover{
+    transform: scale(1.05);
+}
+
+.mainWrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.trashIcon{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.trashIcon0{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgba(40, 72, 119, 0.562);
+    border: none
+}
+.trashIcon1{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.trashIcon1:hover{
+    transform: scale(0.95);
+    background-color: rgb(241, 0, 0);
+    color: white;
+}

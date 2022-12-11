@@ -1,0 +1,148 @@
+.roomsidebar{
+    display: block;
+    background-color: #0c1e35;
+    height: 500px;
+    width: 100%;
+}
+.headerContainerHome{
+    background-image: linear-gradient(to bottom, #051937, #001b4a, #031b5c, #1b176b, #340a78);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 20px;
+    color: white;
+}
+
+.timeClock{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.thidivclock{
+    display: block;
+    justify-content: center;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 120px;
+}
+.roomCounter{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    color: black;
+    border-radius: 20px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.roomCounter p{
+}
+.roomForm{
+    margin-bottom: 10px;
+}
+.roomTiles{
+    background-color: #0c1e35;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.roomTiles h1{
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+}
+.roomTiles hr{
+    color: white;
+}
+.roomList{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 250px !important;
+    -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
+}
+.roomList::-webkit-scrollbar {
+    display: none;
+  }
+.rightSiderooms{
+    display: flex;
+    background-color: #e4ebf5;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.rightSiderooms button {
+    height: 60px;
+}
+.textserver{
+    padding: 10px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+}
+.roomList li{
+    list-style: none;
+}
+.roomList a{
+    color: white;
+    text-decoration: none;
+    color: rgb(194, 184, 250);
+    font-style: italic;
+    font-size: 18px;
+    
+}
+.notification{
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 100px;
+    line-height: 6px;
+    -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
+
+}
+.notification::-webkit-scrollbar {
+    display: none;
+  }
+.notification span{
+    color: blue;
+}
+.notification span:hover{
+    text-decoration: underline !important;
+}
+
+.myservers{
+    /* list-style: none; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(230, 246, 255);
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 1.2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 1.2s;
+}
+.myservers:hover{
+    background-color: rgb(8, 79, 121);
+    color: white !important;
+
+}
+.myservers:hover a{
+    color: white;
+}
+.myservers a{
+    padding-top: 5px !important;
+    text-decoration: none;
+    font-size: 20px;
+}
+.myservers a:hover{
+    color: white
+}
+.myul{
+    height: 250px;
+    overflow-y: auto;
+    -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
+}
+.soumettrebutton{
+    background-color: red;
+}

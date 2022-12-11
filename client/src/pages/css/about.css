@@ -1,0 +1,17 @@
+.imageauthor{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.textabout h1{
+    text-align: center;
+}
+.textabout h1 span{
+    color: cornflowerblue;
+}
+
+.textabout p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
