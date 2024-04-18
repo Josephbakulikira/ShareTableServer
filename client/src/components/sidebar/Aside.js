@@ -195,14 +195,14 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar, handleColl
           }}
         >
           <a
-            href="https://twitter.com/JosephBakl"
+            href="https://github.com/Josephbakulikira"
             target="_blank"
             className="sidebar-btn"
             rel="noopener noreferrer"
           >
-            <FaTwitter />
+            <FaGithub />
             <span style={{ whiteSpace: 'nowrap', textOverflow: 'ellipsis', overflow: 'hidden' }}>
-              {intl.formatMessage({ id: 'viewSource' })}
+              Joseph Bkl
             </span>
           </a>
         </div>
